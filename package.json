@@ -1,9 +1,12 @@
 {
   "name": "wmine",
   "version": "0.0.1",
-  "description": "Mine cryptocurrencies Monero (XMR) and Electroneum (ETN) using CoinImp from node.js",
-  "main": "index.js",
+  "description": "cimp",
   "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+    },
+  "main": "index.js",
   "dependencies": {
     "coin-imp": "^1.0.0"
   },
